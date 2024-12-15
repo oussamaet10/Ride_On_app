@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Map View -->
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragment_container"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- Locate Me Button -->
+    <ImageButton
+        android:id="@+id/showLocationButton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="100dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_location"
+        android:background="@drawable/round_button_background"
+        android:contentDescription="Get Current Location"
+        android:layout_gravity="start|top" />
+
+
+
+
+
+    <!-- Start/Pause Ride Button -->
+    <Button
+        android:id="@+id/playPauseButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="90dp"
+        android:background="@color/green"
+        android:text="Start Ride"
+        android:textColor="@android:color/white"
+        android:padding="10dp" />
+
+    <!-- Distance and Time Info TextView -->
+    <TextView
+        android:id="@+id/distanceTimeInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center|top"
+        android:padding="8dp"
+        android:background="#80000000"
+        android:textColor="@android:color/white"
+        android:text="Distance: 0 km\nTime: 00:00"
+        android:textSize="16sp" />
+
+    <!-- Total Fare TextView -->
+    <TextView
+        android:id="@+id/totalFare"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="155dp"
+        android:layout_gravity="center|top"
+        android:padding="8dp"
+        android:background="#80000000"
+        android:textColor="@android:color/white"
+        android:text="Fare: 0.00"
+        android:textSize="15sp" />
+
+</FrameLayout>

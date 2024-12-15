@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/values-fr/strings.xml -->
+<resources>
+    <string name="app_name">Ma Route</string>
+    <string name="profile_title">Profil</string>
+    <string name="settings_title">Paramètres</string>
+    <string name="exit_button">Quitter l\'application</string>
+    <string name="driver_info">Nom du conducteur : Oussama ET-TAJANI\nÂge : 21</string>
+    <string name="qr_info">Pour plus d\'informations sur le conducteur, veuillez scanner le QR Code.</string>
+</resources>

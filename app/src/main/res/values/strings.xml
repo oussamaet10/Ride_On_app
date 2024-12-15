@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Road</string>
+    <string name="profile_title">Profile</string>
+    <string name="settings_title">Settings</string>
+    <string name="exit_button">Exit App</string>
+    <string name="driver_info">Driver Name: Oussama ET-TAJANI\nAge: 21</string>
+    <string name="qr_info">If you want more information about the driver, please scan the QR Code.</string>
+</resources>

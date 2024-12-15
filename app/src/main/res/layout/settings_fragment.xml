@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/light_gray"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/languageButtonEnglish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="English"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Arabic Language Button -->
+    <Button
+        android:id="@+id/languageButtonArabic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="العربية"
+        android:layout_marginBottom="16dp" />
+
+    <!-- French Language Button -->
+    <Button
+        android:id="@+id/languageButtonFrench"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Français" />
+
+    <Button
+        android:id="@+id/exitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exit App"
+        android:backgroundTint="@color/red"
+        android:textColor="@android:color/white"
+        android:padding="12dp" />
+</LinearLayout>

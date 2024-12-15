@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/values-ar/strings.xml -->
+<resources>
+    <string name="app_name">طريقي</string>
+    <string name="profile_title">الملف الشخصي</string>
+    <string name="settings_title">الإعدادات</string>
+    <string name="exit_button">الخروج من التطبيق</string>
+    <string name="driver_info">اسم السائق: أسامة التاجاني\nالعمر: 21</string>
+    <string name="qr_info">لمزيد من المعلومات عن السائق، يرجى مسح رمز الاستجابة السريعة.</string>
+</resources>
