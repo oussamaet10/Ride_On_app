@@ -24,10 +24,6 @@
         android:contentDescription="Get Current Location"
         android:layout_gravity="start|top" />
 
-
-
-
-
     <!-- Start/Pause Ride Button -->
     <Button
         android:id="@+id/playPauseButton"
@@ -40,30 +36,43 @@
         android:textColor="@android:color/white"
         android:padding="10dp" />
 
-    <!-- Distance and Time Info TextView -->
+    <!-- Distance TextView -->
     <TextView
-        android:id="@+id/distanceTimeInfo"
+        android:id="@+id/distanceInfo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
-        android:layout_gravity="center|top"
+        android:layout_marginTop="150dp"
+        android:layout_gravity="center|top|start"
         android:padding="8dp"
         android:background="#80000000"
         android:textColor="@android:color/white"
-        android:text="Distance: 0 km\nTime: 00:00"
+        android:text="Distance: 0 km"
         android:textSize="16sp" />
 
-    <!-- Total Fare TextView -->
+    <!-- Time TextView -->
     <TextView
-        android:id="@+id/totalFare"
-        android:layout_width="140dp"
+        android:id="@+id/timeInfo"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="155dp"
-        android:layout_gravity="center|top"
+        android:layout_marginTop="109dp"
+        android:layout_gravity="center|top|start"
         android:padding="8dp"
         android:background="#80000000"
         android:textColor="@android:color/white"
-        android:text="Fare: 0.00"
-        android:textSize="15sp" />
+        android:text="Time: 00:00"
+        android:textSize="16sp" />
+
+    <!-- Total Fare TextView (Big) -->
+    <TextView
+        android:id="@+id/totalFare"
+        android:layout_width="wrap_content"
+        android:layout_height="151dp"
+        android:layout_gravity="center|top|end"
+        android:layout_marginTop="80dp"
+        android:background="#80000000"
+        android:padding="40dp"
+        android:text=" 0.00 DH"
+        android:textColor="@android:color/white"
+        android:textSize="50sp" />
 
 </FrameLayout>
